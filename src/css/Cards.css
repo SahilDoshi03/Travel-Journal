@@ -1,0 +1,52 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: 'Inter', sans-serif;
+    padding: 1rem;
+}
+
+.card > img {
+    height: 125px;
+    width: 168px;
+}
+
+.country{
+    display: inline;
+    font-size: .7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: .5rem;
+    color: #2B283A;
+}
+
+.google-maps-link{
+    font-size: .7rem;
+    text-decoration: underline;
+    color: #918E9B;
+}
+
+.place{
+    margin-block: .3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #2B283A;
+}
+
+.timeline{
+    font-size: .7rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    color: #2B283A;
+}
+
+.description{
+    font-size: .7rem;
+    font-weight: 400;
+    color: #2B283A;
+}
+
+p{
+    max-width: 400px;
+}
